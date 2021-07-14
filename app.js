@@ -9,6 +9,6 @@ document.querySelector('button').addEventListener('click', changeBackgroundColor
 
 function changeBackgroundColor() {
     let myColor = Math.floor(Math.random() * 16777216).toString(16);
-    document.querySelector('body').style.background = '#' + myColor;
-    hex.innerHTML = '#' + myColor;
+    document.querySelector('body').style.background = ' #' + myColor;
+    hex.innerHTML = '  Hex-color: #' + myColor;
 }
